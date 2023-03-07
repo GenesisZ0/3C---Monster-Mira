@@ -7938,3 +7938,76 @@ Script Stack (0 frames) :
 [2023.03.07-16.36.51:718][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 4.88 sec)
 [2023.03.07-16.36.51:723][968]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
 [2023.03.07-16.36.51:723][968]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.03.07-16.37.48:286][471]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.07-16.38.28:866][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ai/Meshes/test.test
+[2023.03.07-16.38.28:867][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.07-16.38.32:542][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.07-16.38.32:548][376]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.03.07-16.38.32:550][376]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.07-16.38.32:550][376]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.07-16.38.32:550][376]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 391 us)
+[2023.03.07-16.38.32:550][376]LogWorldPartition: Display: GenerateStreaming took 215 us (total: 33 ms)
+[2023.03.07-16.38.32:552][376]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.07-16.38.32:554][376]LogPlayLevel: [PlayLevel] Compiling Anim before play...
+[2023.03.07-16.38.32:554][376]LogPlayLevel: [PlayLevel]   Compiling FirstPerson_AnimBP as a dependent...
+[2023.03.07-16.38.32:590][376]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2023.03.07-16.38.32:897][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.03.07-16.38.32:899][376]LogPlayLevel: PlayLevel: Blueprint regeneration took 347 ms (3 blueprints)
+[2023.03.07-16.38.32:899][376]PIE: New page: PIE session: FirstPersonMap (7 mars 2023 à 18:38:32)
+[2023.03.07-16.38.32:899][376]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-16.38.32:904][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004643s)
+[2023.03.07-16.38.32:904][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004680s)
+[2023.03.07-16.38.32:904][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.07-16.38.32:904][376]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.03.07-16.38.32:905][376]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.03.07-16.38.32:905][376]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.07-16.38.32:905][376]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.03.07-16.38.32:906][376]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.03.07-16.38.32:906][376]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 345 ms)
+[2023.03.07-16.38.32:906][376]LogPlayLevel: PIE: World Init took: (0.002307s)
+[2023.03.07-16.38.32:937][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.03.07-16.38.32:939][376]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.07-16.38.32:939][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.07-16.38.32:939][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.07-16.38.32:939][376]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.07-16.38.32:939][376]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.07-16.38.32:939][376]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.07-16.38.32:941][376]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.07-16.38.32:956][376]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.03.07-16.38.32:956][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.07-16.38.32:956][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.07-16.38.32:956][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.07-16.38.32:957][376]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2023.03.07-16.38.32:957][376]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2023.03.07-16.38.32:958][376]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2023.03.07-16.38.32:958][376]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2023.03.07-16.38.32:958][376]LogInit: FAudioDevice initialized.
+[2023.03.07-16.38.32:958][376]LogAudio: Display: Audio Device (ID: 76) registered with world 'FirstPersonMap'.
+[2023.03.07-16.38.33:009][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.07-16.38.33:009][376]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.07-16.38.33:012][376]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.03.07-17.38.33
+[2023.03.07-16.38.33:012][376]LogWorld: Bringing up level for play took: 0.002555
+[2023.03.07-16.38.33:014][376]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2023.03.07-16.38.33:016][376]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1461.121 Y=834.328 Z=98.337
+[2023.03.07-16.38.33:016][376]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (test_C_UAID_BCE92FA541811E6601_1223669151)
+[2023.03.07-16.38.33:017][376]PIE: Server logged in
+[2023.03.07-16.38.33:017][376]PIE: Play in editor total start time 0,47 seconds.
+[2023.03.07-16.38.33:078][376]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.07-16.38.50:492][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.07-16.38.50:492][140]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.03.07-16.38.50:494][140]LogSlate: Window 'MyProject4 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.07-16.38.50:501][140]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.07-16.38.50:501][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.07-16.38.50:501][140]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.03.07-16.38.50:505][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.07-16.38.50:508][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.07-16.38.50:543][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.03.07-16.38.50:544][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.03.07-16.38.50:551][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.03.07-16.38.50:572][141]LogPlayLevel: Display: Destroying online subsystem :Context_84
