@@ -3326,3 +3326,13 @@ Make sure 'BP_DoorAmnésia_C' has been compiled for  Get NotMooving
 [2023.03.13-08.25.24:684][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 3.69 sec)
 [2023.03.13-08.25.24:689][ 41]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
 [2023.03.13-08.25.24:689][ 41]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.03.13-08.25.30:824][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.03.13-08.25.31:729][218]LogSlate: Window 'Save Content' being destroyed
+[2023.03.13-08.25.31:737][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.13-08.25.31:824][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.03.13-08.25.31:834][218]LogSavePackage: Moving output files for package: /Game/Maps/Maps_InteractionTestRoom
+[2023.03.13-08.25.31:834][218]LogSavePackage: Moving 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/Maps_InteractionTestRoomB5231278476955254DF584ABF91124EE.tmp' to 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Content/Maps/Maps_InteractionTestRoom.umap'
+[2023.03.13-08.25.31:843][218]LogFileHelpers: Saving map 'Maps_InteractionTestRoom' took 0.051
+[2023.03.13-08.25.31:851][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 3.80 sec)
+[2023.03.13-08.25.31:855][218]AssetCheck: New page: Asset Save: Maps_InteractionTestRoom
+[2023.03.13-08.25.31:855][218]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Maps_InteractionTestRoom.Maps_InteractionTestRoom
