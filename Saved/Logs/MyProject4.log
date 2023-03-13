@@ -3336,3 +3336,89 @@ Make sure 'BP_DoorAmnésia_C' has been compiled for  Get NotMooving
 [2023.03.13-08.25.31:851][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 3.80 sec)
 [2023.03.13-08.25.31:855][218]AssetCheck: New page: Asset Save: Maps_InteractionTestRoom
 [2023.03.13-08.25.31:855][218]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Maps_InteractionTestRoom.Maps_InteractionTestRoom
+[2023.03.13-08.27.45:663][453]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.13-08.27.45:740][453]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.03.13-08.27.45:741][453]LogSavePackage: Moving 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/BP_FirstPersonCharacterC724965041933BEFE7885CA8DDAB5B06.tmp' to 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.03.13-08.27.45:749][453]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 3.89 sec)
+[2023.03.13-08.27.45:753][453]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.03.13-08.27.45:753][453]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.03.13-08.28.38:887][738]LogDerivedDataCache: C:/Users/GAME2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:33.071 and deleted 0 files with total size 0 MiB. Scanned 17153 files in 16505 folders with total size 1346 MiB.
+[2023.03.13-08.34.04:885][211]LogEditorTransaction: Undo Move Node
+[2023.03.13-08.34.06:241][296]LogEditorTransaction: Undo Move Nodes
+[2023.03.13-08.34.11:524][805]LogEditorTransaction: Undo Move Node
+[2023.03.13-08.34.22:482][865]LogEditorTransaction: Undo Move Node
+[2023.03.13-08.34.29:281][598]LogEditorTransaction: Undo Resize Node
+[2023.03.13-08.34.52:565][188]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.03.13-08.34.52:757][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.03.13-08.34.54:082][318]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.13-08.34.54:088][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.13-08.34.54:089][318]PIE: New page: PIE session: Maps_InteractionTestRoom (13 mars 2023 à 10:34:54)
+[2023.03.13-08.34.54:089][318]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom
+[2023.03.13-08.34.54:091][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002288s)
+[2023.03.13-08.34.54:091][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_InteractionTestRoom.Maps_InteractionTestRoom to /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom.Maps_InteractionTestRoom (0.002325s)
+[2023.03.13-08.34.54:091][318]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.13-08.34.54:091][318]LogAIModule: Creating AISystem for world Maps_InteractionTestRoom
+[2023.03.13-08.34.54:092][318]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2023.03.13-08.34.54:126][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.03.13-08.34.54:128][318]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.13-08.34.54:128][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.13-08.34.54:128][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.13-08.34.54:129][318]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.13-08.34.54:129][318]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.13-08.34.54:129][318]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.13-08.34.54:130][318]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.13-08.34.54:145][318]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.03.13-08.34.54:146][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.13-08.34.54:146][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.13-08.34.54:146][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.13-08.34.54:147][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.03.13-08.34.54:147][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.03.13-08.34.54:148][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.03.13-08.34.54:148][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.03.13-08.34.54:148][318]LogInit: FAudioDevice initialized.
+[2023.03.13-08.34.54:148][318]LogAudio: Display: Audio Device (ID: 33) registered with world 'Maps_InteractionTestRoom'.
+[2023.03.13-08.34.54:200][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-08.34.54:200][318]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.13-08.34.54:202][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom.Maps_InteractionTestRoom up for play (max tick rate 0) at 2023.03.13-09.34.54
+[2023.03.13-08.34.54:202][318]LogWorld: Bringing up level for play took: 0.001370
+[2023.03.13-08.34.54:204][318]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.03.13-08.34.54:211][318]PIE: Server logged in
+[2023.03.13-08.34.54:215][318]PIE: Play in editor total start time 0,127 seconds.
+[2023.03.13-08.34.54:226][318]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.13-08.35.00:402][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-08.35.00:402][939]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom
+[2023.03.13-08.35.00:403][939]LogSlate: Window 'MyProject4 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.13-08.35.00:409][939]LogWorld: UWorld::CleanupWorld for Maps_InteractionTestRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.13-08.35.00:410][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-08.35.00:412][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.13-08.35.00:415][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-08.35.00:445][939]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.13-08.35.00:446][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.03.13-08.35.00:447][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.03.13-08.35.00:452][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.03.13-08.35.00:473][940]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.03.13-08.35.35:964][981]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.03.13-08.35.36:128][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.03.13-08.36.14:750][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.03.13-08.36.14:759][865]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Maps_InteractionTestRoom_Auto3
+[2023.03.13-08.36.14:760][865]LogSavePackage: Moving 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/Maps_InteractionTestRoom_Auto3FE8275A5419969E7E69042856275F7B8.tmp' to 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/Autosaves/Game/Maps/Maps_InteractionTestRoom_Auto3.umap'
+[2023.03.13-08.36.14:763][865]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Maps_InteractionTestRoom' took 0.046
+[2023.03.13-08.36.14:763][865]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2023.03.13-08.36.14:763][865]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2023.03.13-08.36.14:809][865]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2023.03.13-08.36.14:809][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2023.03.13-08.36.14:843][865]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto3
+[2023.03.13-08.36.14:843][865]LogSavePackage: Moving 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/BP_FirstPersonCharacter_Auto37A0076CE48BEEF18F11C12B5AE6EFF00.tmp' to 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto3.uasset'
+[2023.03.13-08.36.14:844][865]LogFileHelpers: Auto-saving content packages took 0.081
+[2023.03.13-08.38.03:500][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.13-08.38.03:599][897]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.03.13-08.38.03:599][897]LogSavePackage: Moving 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Saved/BP_FirstPersonCharacter61C8C19D4171BD3E9CF9C0BE5CCC6190.tmp' to 'C:/Users/GAME2/Documents/GitHub/3C---Monster-Mira/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.03.13-08.38.03:607][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 3.99 sec)
+[2023.03.13-08.38.03:611][897]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.03.13-08.38.03:611][897]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
