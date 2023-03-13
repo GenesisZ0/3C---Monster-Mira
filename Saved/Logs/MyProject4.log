@@ -20361,3 +20361,81 @@ Make sure 'BP_DoorAmnésia_C' has been compiled for  Get NotMooving
 [2023.03.13-09.13.51:826][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
 [2023.03.13-09.13.51:826][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Door/BP_DoorAmnésia.BP_DoorAmnésia
 [2023.03.13-09.13.51:826][957]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Maps_InteractionTestRoom.Maps_InteractionTestRoom
+[2023.03.13-09.23.41:010][811]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.13-09.23.41:016][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.13-09.23.41:016][811]PIE: New page: PIE session: Maps_InteractionTestRoom (13 mars 2023 à 11:23:41)
+[2023.03.13-09.23.41:016][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom
+[2023.03.13-09.23.41:019][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002636s)
+[2023.03.13-09.23.41:019][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_InteractionTestRoom.Maps_InteractionTestRoom to /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom.Maps_InteractionTestRoom (0.002662s)
+[2023.03.13-09.23.41:019][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.13-09.23.41:020][811]LogAIModule: Creating AISystem for world Maps_InteractionTestRoom
+[2023.03.13-09.23.41:020][811]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2023.03.13-09.23.41:054][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.03.13-09.23.41:056][811]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.13-09.23.41:056][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.13-09.23.41:056][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.13-09.23.41:056][811]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.13-09.23.41:056][811]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.13-09.23.41:056][811]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.13-09.23.41:058][811]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.13-09.23.41:073][811]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.03.13-09.23.41:073][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.13-09.23.41:073][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.13-09.23.41:073][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.13-09.23.41:074][811]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2023.03.13-09.23.41:074][811]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2023.03.13-09.23.41:075][811]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2023.03.13-09.23.41:075][811]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2023.03.13-09.23.41:075][811]LogInit: FAudioDevice initialized.
+[2023.03.13-09.23.41:075][811]LogAudio: Display: Audio Device (ID: 61) registered with world 'Maps_InteractionTestRoom'.
+[2023.03.13-09.23.41:133][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-09.23.41:133][811]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.13-09.23.41:135][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom.Maps_InteractionTestRoom up for play (max tick rate 0) at 2023.03.13-10.23.41
+[2023.03.13-09.23.41:135][811]LogWorld: Bringing up level for play took: 0.001389
+[2023.03.13-09.23.41:137][811]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.03.13-09.23.41:141][811]PIE: Server logged in
+[2023.03.13-09.23.41:143][811]PIE: Play in editor total start time 0,127 seconds.
+[2023.03.13-09.23.41:154][811]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.13-09.23.42:642][939]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] -100.0
+[2023.03.13-09.23.43:006][978]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.076889
+[2023.03.13-09.23.43:017][979]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.804276
+[2023.03.13-09.23.43:028][980]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.959488
+[2023.03.13-09.23.43:039][981]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.979706
+[2023.03.13-09.23.43:048][982]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.979706
+[2023.03.13-09.23.43:057][983]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.979706
+[2023.03.13-09.23.43:066][984]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.979706
+[2023.03.13-09.23.43:625][ 41]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.501938
+[2023.03.13-09.23.43:635][ 42]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.107889
+[2023.03.13-09.23.43:644][ 43]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.0241
+[2023.03.13-09.23.43:653][ 44]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.014452
+[2023.03.13-09.23.43:662][ 45]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.014452
+[2023.03.13-09.23.43:680][ 47]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.364452
+[2023.03.13-09.23.43:689][ 48]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.080949
+[2023.03.13-09.23.43:698][ 49]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.018102
+[2023.03.13-09.23.43:707][ 50]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.010747
+[2023.03.13-09.23.43:718][ 51]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.010747
+[2023.03.13-09.23.43:727][ 52]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 0.010747
+[2023.03.13-09.23.44:203][ 98]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.531723
+[2023.03.13-09.23.44:213][ 99]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.897583
+[2023.03.13-09.23.44:221][100]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.977661
+[2023.03.13-09.23.44:230][101]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.985962
+[2023.03.13-09.23.44:239][102]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.985962
+[2023.03.13-09.23.44:256][104]LogBlueprintUserMessages: [BP_DoorAmnésia_C_3] 179.985962
+[2023.03.13-09.23.44:300][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.13-09.23.44:300][104]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Maps_InteractionTestRoom
+[2023.03.13-09.23.44:301][104]LogSlate: Window 'MyProject4 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.13-09.23.44:307][104]LogWorld: UWorld::CleanupWorld for Maps_InteractionTestRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.13-09.23.44:308][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-09.23.44:309][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.13-09.23.44:312][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.13-09.23.44:343][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.13-09.23.44:343][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.03.13-09.23.44:344][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.03.13-09.23.44:350][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.03.13-09.23.44:369][105]LogPlayLevel: Display: Destroying online subsystem :Context_69
